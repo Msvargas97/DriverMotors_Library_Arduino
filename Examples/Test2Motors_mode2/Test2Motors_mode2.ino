@@ -37,7 +37,7 @@ void loop() {
     //Tambien puede controlarse cada lado del motor independientemente con las funciones:
 	motors.setSpeedRight(i);
 	motors.setSpeedLeft(i);
-	/*
+	*/
     delay(100);
   }
   motors.ShortBrake(); //Freno inmediato
